@@ -12,12 +12,6 @@ from flask_restful import Resource, Api, reqparse # flask_restful = Simple frame
 import requests # Requests allows you to send HTTP requests.
 import time # Used to select time
 
-# Start : Pivotal cloud setup ---------------------
-from cfenv import AppEnv # Python wrapper for Cloud Foundry environments, This is a tiny utility that simplifies interactions with Cloud Foundry environment variables.
-env = AppEnv() # Setting Cloud Foundry environment.
-port = env.port # Setting Cloud Foundry environment port.
-# End : Pivotal cloud setup -----------------------
-
 app = Flask(__name__) # Flask app attribute
 api = Api(app) # The main entry point for the application. You need to initialize it with a Flask Application.
 
