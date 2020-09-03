@@ -1,5 +1,4 @@
 # https://flask-restful.readthedocs.io/en/latest/
-# Here Used Pivotal Cloud Foundry to deploy the changes.
 
 import json # To form a JSON data
 from errno import errorcode # To handle Error Code
